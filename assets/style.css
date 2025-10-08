@@ -209,8 +209,35 @@ footer {
 /* Messions */
 .missionsContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 50px 50px;
 }
+
+.missionImage img {
+    width: 500px;
+    padding: 40px 0;
+}
+
+.missionCard {
+    width: 700px;
+}
+.missionCard h1 {
+    font-size: 70px;
+}
+.missionCard p {
+    font-size: 16px;
+}
+.missionCard .listInfo{
+    margin: 30px 20px 0 20px;
+    padding: 0 20px 0 0;
+}
+.missionCard .listInfo .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
