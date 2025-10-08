@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpaceX Exploration</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">🚀 SpaceX Exploration</div>
+    <ul class="nav-links">
+      <li><a href="#banner">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#missions">Missions</a></li>
+      <li><a href="#tech">Technology</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN BANNER -->
+  <section class="banner" id="banner">
+    <div class="banner-overlay"></div>
+    <div class="banner-content">
+      <h1>Exploring the Stars</h1>
+      <p>Embark on humanity’s greatest adventure — from Earth to Mars and beyond.</p>
+      <button class="btn">Discover More</button>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <h2>About SpaceX</h2>
+    <p>
+      SpaceX designs, manufactures, and launches advanced rockets and spacecraft.
+      Founded by Elon Musk, its goal is to make space travel accessible and enable
+      the colonization of Mars. Through constant innovation, SpaceX continues to push
+      the limits of human exploration.
+    </p>
+  </section>
+
+  <!-- MISSIONS -->
+  <section class="section dark" id="missions">
+    <h2>Recent Missions</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/GPS_III_7_pad39a_DSC_3066_desktop_d42e3b3aa1.jpg" alt="Crew Dragon">
+        <h3>GPS III-7 Mission</h3>
+        <p> was the fourth flight for the first stage booster supporting this mission, which previously launched CRS-32, NROL-69, and a Starlink mission.</p>
+      </div>
+      <div class="card">
+        <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/20251007_Starlink_10_59_Streak_DSC_00975_31a83c61e9.jpg" alt="Falcon 9">
+        <h3>Starlink Mission </h3>
+        <p>This was the eighth flight for the first stage booster supporting this mission, which previously launched CRS-33, O3b mPOWER-E, Crew-10, Bandwagon-3, O3b mPOWER-D, and now three Starlink missions. </p>
+      </div>
+      <div class="card">
+        <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/IMAP_Wpondh_IMG_8198_desktop_44e34d4bf6.jpg" alt="Starship">
+        <h3>IMAP Mission</h3>
+        <p>This was the second flight for the first stage booster supporting this mission, which previously supported KF-01.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY -->
+  <section class="section" id="tech">
+    <h2>Innovative Technology</h2>
+    <div class="tech-list">
+      <p>Reusable rocket boosters reducing the cost of space travel.</p>
+      <p>Autonomous landing systems and precision navigation.</p>
+      <p>AI-powered flight analysis and telemetry systems.</p>
+      <p>Next-gen propulsion technology for deep space missions.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section dark" id="gallery">
+    <h2>Discover Space</h2>
+    <div class="gallery">
+      <img src="https://www.starlink.com/public-files/home_a_feature1_d.webp" alt="Starlink">
+      <img src="https://www.spacex.com/assets/images/vehicles/dragon/dragon_feature.jpg">
+      <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/Vandy_desktop1_686164ccc7.jpg" alt="Starship Launch">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 SpaceX Exploration — Student Project</p>
+  </footer>
+
+  <script>
+    // Reveal sections on scroll
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(sec => observer.observe(sec));
+  </script>
+</body>
+</html>
