@@ -62,13 +62,20 @@ img { max-width: 100%; height: auto; display: block; }
 /* BANNER */
 .banner {
   height: 100vh;
-  background: url('images/banner.jpg') center/cover fixed no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
   margin-top: 60px; /* offset for navbar */
+}
+
+.banner1 {
+  background: url('images/banner.jpg') center/cover fixed no-repeat;
+}
+
+.banner2 {
+  background: url('images/banner2.jpg') center/cover fixed no-repeat;
 }
 
 .banner-overlay {
@@ -197,6 +204,12 @@ footer {
   background-color: #000;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+}
+
+/* Messions */
+.missionsContainer{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* RESPONSIVE */
