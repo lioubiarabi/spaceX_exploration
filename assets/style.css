@@ -320,9 +320,9 @@ footer {
 .rusable-banner  {
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
   position: relative;
   margin-top: 60px; 
