@@ -273,6 +273,45 @@ footer {
     height: 20px;
 }
 
+/* about */
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.about-image img {
+    
+    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    display: inline-block;
+    border-radius: 20px;
+    width: 500px;
+    padding: 3px;
+}
+
+.about-info {
+    width: 700px;
+}
+.about-info h1 {
+    font-size: 70px;
+}
+.about-info p {
+    font-size: 16px;
+}
+.about-info .listInfo{
+    margin: 30px 20px 0 20px;
+    padding: 0 20px 0 0;
+}
+.about-info .listInfo .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
