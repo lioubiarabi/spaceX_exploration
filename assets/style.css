@@ -17,7 +17,9 @@ html, body {
 }
 
 img { max-width: 100%; height: auto; display: block; }
-
+.logo {
+    width: 200px;
+}
 /* NAVBAR */
 .navbar {
   position: fixed;
