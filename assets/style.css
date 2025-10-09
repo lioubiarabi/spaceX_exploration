@@ -356,7 +356,63 @@ footer {
 }
 
 /* contact */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-dash{
+    text-align: left;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #5b42f3 ;
+    padding-left: 50px;
+}
+.input {
+  background-color: #212121;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0;
+}
+.messageinput {
+  background-color: #212121;
+  width: 300px;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0 30px 0;
+}
 
+.input:focus {
+  color: rgb(0, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+.btn-form {
+    width: 300px;
+}
+
+.contact-dash .listInfo{
+    margin: 30px 20px 0 0px;
+    padding: 0 20px 0 0;
+    width: 500px;
+}
+.contact-dash .listInfo .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
 
 
 /* RESPONSIVE */
