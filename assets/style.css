@@ -275,7 +275,7 @@ footer {
 
 /* about */
 
-.about-section{
+.about-section, .tech-section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -283,7 +283,7 @@ footer {
     padding: 50px 50px;
 }
 
-.about-image img {
+.about-image img ,.tech-image img {
     
     background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     display: inline-block;
@@ -292,20 +292,20 @@ footer {
     padding: 3px;
 }
 
-.about-info {
+.about-info, .tech-info {
     width: 700px;
 }
-.about-info h1 {
+.about-info h1, .tech-info h1 {
     font-size: 70px;
 }
-.about-info p {
+.about-info p , .tech-info p{
     font-size: 16px;
 }
-.about-info .listInfo{
+.about-info .listInfo , .tech-info .listInfo{
     margin: 30px 20px 0 20px;
     padding: 0 20px 0 0;
 }
-.about-info .listInfo .item {
+.about-info .listInfo .item, .tech-info .listInfo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
