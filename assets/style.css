@@ -17,9 +17,7 @@ html, body {
 }
 
 img { max-width: 100%; height: auto; display: block; }
-.logo {
-    width: 200px;
-}
+
 /* NAVBAR */
 .navbar {
   position: fixed;
@@ -40,6 +38,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 700;
   color: #1e90ff;
   white-space: nowrap;
+  width: 200px;
 }
 
 .nav-links {
@@ -416,6 +415,9 @@ footer {
     margin: 0 0 20px 0;
 }
 
+@media (min-width: 768px) {
+  
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
