@@ -81,6 +81,10 @@ img { max-width: 100%; height: auto; display: block; }
 .banner3 {
   background: url('images/banner3.jpg') center/cover fixed no-repeat;
 }
+.rusable-banner {
+  background: url('images/rusable-rockets.jpg') center/cover fixed no-repeat;
+}
+
 
 .banner-overlay {
   position: absolute;
@@ -310,6 +314,45 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     height: 20px;
+}
+
+/* rusable banner section */
+.rusable-banner  {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  position: relative;
+  margin-top: 60px; 
+  background: url('images/rusable-rockets.jpg') center/cover fixed no-repeat;
+}
+
+
+.rusable-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.rusable-banner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.rusable-banner-content h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 30px #1e90ff;
+  animation: glow 2s infinite alternate;
+}
+
+.rusable-banner-content p {
+  font-size: 1.1rem;
+  margin: 20px 0 30px;
 }
 
 
