@@ -293,7 +293,7 @@ footer {
     background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     display: inline-block;
     border-radius: 20px;
-    width: 500px;
+    width: 31.25rem;
     padding: 3px;
 }
 
@@ -456,4 +456,27 @@ footer {
   .icon {
     display: block;
   }
+
+  
+/* about */
+
+.about-section, .tech-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.about-image img ,.tech-image img {
+    
+    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    display: inline-block;
+    border-radius: 20px;
+    width: 31.25rem;
+    padding: 3px;
+}
+
+.about-info, .tech-info {
+    width: 100%;
+}
 }
