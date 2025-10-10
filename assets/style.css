@@ -479,4 +479,25 @@ footer {
 .about-info, .tech-info {
     width: 100%;
 }
+
+/* messions */
+.missionImage {
+  display: none;
+}
+.missionsContainer{
+    display: block;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.missionCard {
+    width: 100%;
+}
+.missionCard h1 {
+    font-size: 50px;
+}
+.missionCard p {
+    font-size: 14px;
+}
+
 }
